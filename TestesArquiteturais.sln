@@ -3,21 +3,26 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestesArquiteturais.API", "source\TestesArquiteturais.API\TestesArquiteturais.API.csproj", "{B6A92824-96DE-4C69-8C24-23C662B55540}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "com.tchars.TestesArquiteturais.API", "source\TestesArquiteturais.API\com.tchars.TestesArquiteturais.API.csproj", "{B6A92824-96DE-4C69-8C24-23C662B55540}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestesArquiteturais.Application", "source\TestesArquiteturais.Application\TestesArquiteturais.Application.csproj", "{A3C66076-ECC5-42C7-B1AA-3AF52149EBDD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "com.tchars.TestesArquiteturais.Application", "source\TestesArquiteturais.Application\com.tchars.TestesArquiteturais.Application.csproj", "{A3C66076-ECC5-42C7-B1AA-3AF52149EBDD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestesArquiteturais.Domain", "source\TestesArquiteturais.Domain\TestesArquiteturais.Domain.csproj", "{F26086DB-2173-4CEC-A229-13C871446591}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "com.tchars.TestesArquiteturais.Domain", "source\TestesArquiteturais.Domain\com.tchars.TestesArquiteturais.Domain.csproj", "{F26086DB-2173-4CEC-A229-13C871446591}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Service", "2 - Service", "{CA4332D8-8D9D-44D4-8987-4374BCAAC5D3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Test", "1 - Test", "{870DAE4D-7448-44AC-B31D-6128FFE7D2A7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestesArquiteturais.ArchitectureTests", "test\TestesArquiteturais.ArchitectureTests\TestesArquiteturais.ArchitectureTests.csproj", "{CEE916A5-BC99-42FD-8EF9-4004DCADDCC6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "com.tchars.TestesArquiteturais.ArchitectureTests", "test\TestesArquiteturais.ArchitectureTests\com.tchars.TestesArquiteturais.ArchitectureTests.csproj", "{CEE916A5-BC99-42FD-8EF9-4004DCADDCC6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Architecture", "Architecture", "{EF26BBF1-1242-4E12-A61E-632DAE39219B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestesArquiteturais.Infrastructure", "source\TestesArquiteturais.Infrastructure\TestesArquiteturais.Infrastructure.csproj", "{3655B3F7-E4A4-412A-9D25-9BF61C8B522F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "com.tchars.TestesArquiteturais.Infrastructure", "source\TestesArquiteturais.Infrastructure\com.tchars.TestesArquiteturais.Infrastructure.csproj", "{3655B3F7-E4A4-412A-9D25-9BF61C8B522F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens de Solução", "Itens de Solução", "{2F0D3914-0E46-4688-B080-5B4923632EAB}"
+	ProjectSection(SolutionItems) = preProject
+		README.MD = README.MD
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -24,11 +24,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\source\TestesArquiteturais.API\TestesArquiteturais.API.csproj" />
-    <ProjectReference Include="..\..\source\TestesArquiteturais.Application\TestesArquiteturais.Application.csproj" />
-    <ProjectReference Include="..\..\source\TestesArquiteturais.Domain\TestesArquiteturais.Domain.csproj" />
-    <ProjectReference Include="..\..\source\TestesArquiteturais.Infrastructure\TestesArquiteturais.Infrastructure.csproj" />
-    <ProjectReference Include="..\..\source\TestesArquiteturais.Infra\TestesArquiteturais.Infra.csproj" />
+    <ProjectReference Include="..\..\source\TestesArquiteturais.API\com.tchars.TestesArquiteturais.API.csproj" />
+    <ProjectReference Include="..\..\source\TestesArquiteturais.Application\com.tchars.TestesArquiteturais.Application.csproj" />
+    <ProjectReference Include="..\..\source\TestesArquiteturais.Domain\com.tchars.TestesArquiteturais.Domain.csproj" />
+    <ProjectReference Include="..\..\source\TestesArquiteturais.Infrastructure\com.tchars.TestesArquiteturais.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

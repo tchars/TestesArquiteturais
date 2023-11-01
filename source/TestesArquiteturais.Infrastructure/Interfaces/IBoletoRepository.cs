@@ -1,4 +1,4 @@
-﻿namespace TestesArquiteturais.Infrastructure.Interfaces
+﻿namespace com.tchars.TestesArquiteturais.Infrastructure.Interfaces
 {
     public interface IBoletoRepository
     { }

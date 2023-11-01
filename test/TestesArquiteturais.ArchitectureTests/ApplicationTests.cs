@@ -1,7 +1,7 @@
 using NetArchTest.Rules;
 using System.Reflection;
 
-namespace TestesArquiteturais.ArchitectureTests
+namespace com.tchars.TestesArquiteturais.ArchitectureTests
 {
     public class ApplicationTests
     {
@@ -9,7 +9,7 @@ namespace TestesArquiteturais.ArchitectureTests
 
         public ApplicationTests()
         {
-            _type = Types.InAssembly(Assembly.Load("TestesArquiteturais.Application"));
+            _type = Types.InAssembly(Assembly.Load("com.tchars.TestesArquiteturais.Application"));
         }
 
         [Fact]

@@ -1,4 +1,4 @@
-﻿namespace TestesArquiteturais.Domain
+﻿namespace com.tchars.TestesArquiteturais.Domain
 {
     public class BoletoEntity
     {

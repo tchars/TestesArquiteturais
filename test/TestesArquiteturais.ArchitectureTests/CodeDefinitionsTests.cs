@@ -1,30 +1,30 @@
 using NetArchTest.Rules;
 using System.Reflection;
 
-namespace TestesArquiteturais.ArchitectureTests
+namespace com.tchars.TestesArquiteturais.ArchitectureTests
 {
     public class CodeDefinitionsTests
     {
-        private readonly Types _type;
+        private readonly Types _types;
 
-        private readonly IEnumerable<Assembly> _assemblies = new List<Assembly> 
+        private readonly IEnumerable<Assembly> _assemblies = new List<Assembly>
         {
-            Assembly.Load("TestesArquiteturais.API"),
-            Assembly.Load("TestesArquiteturais.Application"),
-            Assembly.Load("TestesArquiteturais.Domain"),
-            Assembly.Load("TestesArquiteturais.Infrastructure")
+            Assembly.Load("com.tchars.TestesArquiteturais.API"),
+            Assembly.Load("com.tchars.TestesArquiteturais.Application"),
+            Assembly.Load("com.tchars.TestesArquiteturais.Domain"),
+            Assembly.Load("com.tchars.TestesArquiteturais.Infrastructure")
         };
 
         public CodeDefinitionsTests()
         {
-            _type = Types.InAssemblies(_assemblies);
+            _types = Types.InAssemblies(_assemblies);
         }
 
         [Fact]
         public void Todas_Interfaces_Devem_Comecar_Com_Letra_I()
         {
             // Arrange
-            var types = _type;
+            var types = _types;
 
             // Act
             var result = types

@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace TestesArquiteturais.API.Controllers
+namespace com.tchars.TestesArquiteturais.API.Controllers
 {
     [ApiController]
     [Route("boletos")]
@@ -9,7 +9,7 @@ namespace TestesArquiteturais.API.Controllers
         public BoletoController() { }
 
         [HttpGet]
-        public IActionResult Get() 
+        public IActionResult Get()
             => Ok();
     }
 }

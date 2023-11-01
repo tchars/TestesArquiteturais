@@ -1,7 +1,7 @@
 using NetArchTest.Rules;
 using System.Reflection;
 
-namespace TestesArquiteturais.ArchitectureTests
+namespace com.tchars.TestesArquiteturais.ArchitectureTests
 {
     public class DomainTests
     {
@@ -9,7 +9,7 @@ namespace TestesArquiteturais.ArchitectureTests
 
         public DomainTests()
         {
-            _type = Types.InAssembly(Assembly.Load("TestesArquiteturais.Domain"));
+            _type = Types.InAssembly(Assembly.Load("com.tchars.TestesArquiteturais.Domain"));
         }
 
         [Fact]
@@ -21,7 +21,7 @@ namespace TestesArquiteturais.ArchitectureTests
             // Act
             var result = types
                            .ShouldNot()
-                           .HaveDependencyOn("TestesArquiteturais.Application")
+                           .HaveDependencyOn("com.tchars.TestesArquiteturais.Application")
                            .GetResult();
 
             // Assert

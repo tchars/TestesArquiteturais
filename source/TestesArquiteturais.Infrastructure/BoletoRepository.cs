@@ -1,7 +1,7 @@
-﻿using TestesArquiteturais.Infrastructure.Interfaces;
+﻿using com.tchars.TestesArquiteturais.Infrastructure.Interfaces;
 
-namespace TestesArquiteturais.Infrastructure
+namespace com.tchars.TestesArquiteturais.Infrastructure
 {
-    public class BoletoRepository : IBoletoRepository 
+    public class BoletoRepository : IBoletoRepository
     { }
 }
